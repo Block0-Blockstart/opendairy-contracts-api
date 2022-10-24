@@ -1,0 +1,15 @@
+# .env we dont want to ignore this one if we pass the .env file to docker run
+
+node_modules
+test
+dist
+coverage
+logs
+
+npm-debug.log
+.editorconfig
+.eslintrc
+.gitignore
+
+*.log
+*.perso.txt

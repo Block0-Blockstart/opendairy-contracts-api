@@ -1,0 +1,37 @@
+{
+  "name": "opendairy-contracts-api",
+  "version": "0.0.1",
+  "description": "OpenDairy - API handling smart contracts patterns",
+  "homepage": "https://github.com/Block0-Blockstart/opendairy-contracts-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Block0-Blockstart/opendairy-contracts-api"
+  },
+  "author": {
+    "name" : "block0",
+    "email" : "info@block0.io",
+    "url" : "https://block0.io/"
+  },
+  "contributors": [
+    "Benoit Antoine (https://github.com/jaffaskree)",
+    "Aymeric Charles de la Brousse (https://github.com/aymericblock0)"
+  ],
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "node -r dotenv/config src/index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^3.0.4"
+  }
+}
